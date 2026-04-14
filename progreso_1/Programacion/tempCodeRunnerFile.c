@@ -1,1 +1,0 @@
-    {prinft ("%d", Var [i]);}
