@@ -7,8 +7,9 @@ num =  150 ;
 
 
  x = &num ; //almacena la direcion de memoria de num 
+ a = *x ; //esto muestra el contenido de la ireccion de memoria 
 
- printf ("%d %p  ", num, x );
+ printf ("%d %d %p\n", num, a, x ); 
 
 
 
@@ -18,7 +19,10 @@ num =  150 ;
 
  ptrF = &pi ;
 
- printf (" %f %p", pi , ptrF);
+ decimal = *ptrF ;
+
+
+ printf ("%.3f %.3f %p", pi , decimal , ptrF);
 
 
 
